@@ -10,6 +10,26 @@ This repository contains a sample code intended to demonstrate the capabilities 
 - Java 8
 - Gradle
 
+## config
+
+Change the properties like port in the `application.properties` file
+
+```properties
+server.port=9090
+```
+
+### Build
+
+```bash
+./gradlew clean build
+```
+
+### Run
+
+```bash
+./gradlew bootRun
+```
+
 ## Credits
 
 This project was based on these libraries:
